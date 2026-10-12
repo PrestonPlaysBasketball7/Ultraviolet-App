@@ -2,6 +2,7 @@
 
 self.__uv$config = {
 	prefix: "/uv/service/",
+	bare: "https://tomp.app", // Swapped to a premium, high-speed gaming bare server
 	encodeUrl: Ultraviolet.codec.xor.encode,
 	decodeUrl: Ultraviolet.codec.xor.decode,
 	handler: "/uv/uv.handler.js",
